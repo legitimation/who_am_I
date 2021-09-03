@@ -1,4 +1,4 @@
-import Header from "./components/header.js"
+import Header from "./components/header/header.js"
 
 // Equivalent to line below, function App () AND const App = () => 
 // function App () {

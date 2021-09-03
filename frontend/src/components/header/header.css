@@ -1,0 +1,19 @@
+.header {
+  /* display: flex; */
+  /* flex alligning components on the same row */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+
+.title {
+  color: red;
+  background-color: aliceblue;
+  /* text-align: center; */
+}
+
+.props {
+  color: blue;
+  background-color: orange;
+  /* text-align: center; */
+}

@@ -1,10 +1,12 @@
-const Title = "Zieho"
+import "./header.css";
+
+const Title = "Zieho Choi's frontend developing study"
 
 const Header = ({title, anyname}) => {
     return (
-        <header>
-            <h1>{Title}</h1>
-            <h2>{title}, {anyname}</h2>
+        <header className = 'header'>
+            <h1 className = "title"> {Title} </h1>
+            <h2 className = "props">{title}, {anyname}</h2>
             <button> BUTTON </button>
         </header>
     )
